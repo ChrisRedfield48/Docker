@@ -44,7 +44,7 @@ nano compose.yaml
 ```
 
 
-![Код конфигурации в терминале](Docker Compose/git-sync.png)
+![Код конфигурации в терминале](/Users/chris/Documents/Учеба/Doker/Docker/DockerCompose/git-sync.png)
 
 ### Запуск контейнеров
 
@@ -56,7 +56,7 @@ docker compose up -d
 ```
 
 
-![](DockerCompose/Pulled_and_Started.png)
+![](/Users/chris/Documents/Учеба/Doker/Docker/DockerCompose/Pulled_and_Started.png)
 
 ---
 
@@ -68,12 +68,12 @@ docker compose up -d
 По умолчанию Joomla пытается подключиться к БД по адресу `localhost`. Так как база данных находится в изолированном контейнере Docker, адрес хоста был изменен на имя сервиса в Docker-сети — **`db`**.
 
 
-![](DockerCompose/joomla-db.png)
+![](/Users/chris/Documents/Учеба/Doker/Docker/DockerCompose/joomla-db.png)
 
 После успешной установки и удаления папки `installation` сайт стал доступен для работы.
 
 
-![](DockerCompose/joomla-sait.png)
+![](/Users/chris/Documents/Учеба/Doker/Docker/DockerCompose/joomla-sait.png)
 
 ---
 
@@ -87,7 +87,7 @@ docker compose down
 ```
 
 
-![](DockerCompose/Removed-docker.png)
+![](/Users/chris/Documents/Учеба/Doker/Docker/DockerCompose/Removed-docker.png)
 
 ```
 

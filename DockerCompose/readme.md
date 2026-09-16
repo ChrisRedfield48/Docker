@@ -56,7 +56,7 @@ docker compose up -d
 ```
 
 
-*![](Docker Compose/Pulled_and_Started.png)*
+*![](DockerCompose/Pulled_and_Started.png)*
 
 ---
 
@@ -68,12 +68,12 @@ docker compose up -d
 По умолчанию Joomla пытается подключиться к БД по адресу `localhost`. Так как база данных находится в изолированном контейнере Docker, адрес хоста был изменен на имя сервиса в Docker-сети — **`db`**.
 
 
-*![](Docker Compose/joomla-db.png)*
+*![](DockerCompose/joomla-db.png)*
 
 После успешной установки и удаления папки `installation` сайт стал доступен для работы.
 
 
-*![](Docker Compose/joomla-sait.png)*
+*![](DockerCompose/joomla-sait.png)*
 
 ---
 
@@ -87,7 +87,7 @@ docker compose down
 ```
 
 
-*![](Docker Compose/Removed-docker.png)*
+*![](DockerCompose/Removed-docker.png)*
 
 ```
 
